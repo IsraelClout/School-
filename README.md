@@ -54,7 +54,7 @@ button{background:#3b82f6;color:white;font-weight:bold;cursor:pointer}
         <div id="tab-rank" class="hidden"><div class="card"><h2>Top 10</h2><table id="rank" style="width:100%"></table></div></div>
         <div id="tab-set" class="hidden">
             <div class="card"><h2>School Name</h2><input id="school" placeholder="School Name"><button onclick="saveSchool()">Save</button></div>
-            <div class="card"><h2>Subjects</h2><div id="sub-list"></div><input id="newsub" placeholder="Add Subject"><button onclick="addSub()">Add</button></div>
+            <div class="card"><h2>Subjects</h2><div id="sub-list"></div><input id="newsub" placeholder="Add Subject"><button SMSdSub()">Add</button></div>
             <div class="card"><h2>Export</h2><button onclick="exportCSV()">Export Students CSV</button></div>
             <div class="card"><h2>Danger</h2><button onclick="resetAll()" style="background:#ef4444">Reset All Data</button></div>
         </div>
